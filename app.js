@@ -16,7 +16,7 @@ const GITHUB_TOKEN = process.env.GITHUB_TOKEN
 
 const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${FILE_PATH}`;
 
-const ADMIN_PASSWORD = process.env.PW_ADMIN_LOGIN
+const ADMIN_PASSWORD = process.env.PW_ADMIN_LOGIN;
 const USER_PASSWORD = process.env.PW_USER_LOGIN;
 
 const settings = {
